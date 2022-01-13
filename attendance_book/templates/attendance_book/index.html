@@ -1,0 +1,30 @@
+{% load static %}
+<html lang="ko">
+    <head>
+        <link rel="stylesheet" type="text/css" href="{% static 'bootstrap.min.css' %}">
+        <meta name=viewport content= initial-scale=1 minimum-scale=1 width=device-width>
+    </head>
+    <body>
+        <div class="container h-100">
+            <div class="row m-auto w-50 d-flex align-items-center h-100">
+                <div >
+                    <form action="">
+                        <h1 class="h3 mb-3 fw-normal text-center">의결권 확인</h1>
+                        <div class="mb-3">
+                            <label for="name" class="form-label">이름</label>
+                            <input type="text" class="form-control" id="name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="birthdate" class="form-label">생년월일 (6자리)</label>
+                            <input type="text" class="form-control" id="birthdate">
+                        </div>
+                        <button class="btn btn-primary w-100" type="submit">확인</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
+
+
+
