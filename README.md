@@ -1,2 +1,2 @@
-# alba-attendance-book
+# 알바노조 총회 출석부
  
